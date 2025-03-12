@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* cascading style sheet */
+p {
+  color: #333 !important;
+  margin-bottom: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-family: Poppins;
+  letter-spacing: 4px;
+}
+
+.wrapper {
+  padding: 64px 128px;
+  text-align: center;
+  margin: 32px;
+}
+
+.level-2 {
+  font-size: 42px;
+  font-weight: 500;
+  text-shadow: -2px -2px 2px #a4a4a4;
+}
+
+#main {
+  /* x , y , b , s , c */
+  box-shadow: 0 0 10px 2px #000;
+  border-radius: 10px;
+  /* all four side */
+
+  /* tb , lr */
+  /* padding: 32px 60px; */
+
+  /* t ,lr, b */
+  /* padding: 32px 60px 128px; */
+
+  /* t , r, b, l */
+  /* padding: 32px 60px 50px 128px; */
+
+  /* padding-top: 10px; */
+
+  /* all four side */
+  /* margin: 32px; */
+
+  /* tb , lr */
+  /* margin: 32px 60px; */
+
+  /* t ,lr, b */
+  /* margin: 32px 60px 128px; */
+
+  /* t , r, b, l */
+  /* margin: 32px 60px 50px 128px; */
+
+  /* margin-top: 10px; */
+
+  /* border-width: 10px;
+  border-color: tomato;
+  border-style: double; */
+
+  /* border: 10px double tomato; */
+
+  color: #fff;
+  /* single color as background */
+  /* background: wheat; */
+  /* background-color: wheat; */
+
+  /* multicolors as background */
+  /* background: linear-gradient(wheat, rgb(91, 170, 255)); */
+  /* background: linear-gradient(45deg, wheat, rgb(91, 170, 255)); */
+  /* background: linear-gradient(45deg, wheat, rgb(91, 170, 255), wheat); */
+  /* background: linear-gradient(45deg, wheat 50%, rgb(91, 170, 255) 50%); */
+
+  /* background: url(./images/17580.jpg); */
+  /* background-image: url(./images/bgc.jpg); */
+
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/bgc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+}
+
+#main p {
+  line-height: 1.5;
+}
+
+#main img {
+  box-shadow: -4px -4px 4px 0 #000;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#main button {
+  box-shadow: -4px -4px 4px 0 #000;
+  padding: 10px 12px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+#contact {
+  color: teal;
+}
+
+#contact a {
+  display: block;
+  color: #fff;
+  width: 15%;
+  margin: auto;
+  padding: 12px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: -2px -2px 2px #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg, teal, rgb(0, 186, 186));
+  transition: 0.3s;
+}
+
+#contact h4 {
+  font-size: 28px;
+  font-weight: 400;
+  text-shadow: -2px -2px 2px #a4a4a4;
+}
+
+#contact a:hover {
+  width: 20%;
+  background: linear-gradient(-45deg, teal, rgb(0, 186, 186));
+}
